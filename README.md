@@ -47,7 +47,8 @@ Method: POST
 
 OUTPUT
 
-![alt text](<Screenshot (95).png>)
+![Screenshot (95)](https://github.com/vaishnavikapile22/social-networking-application-using-django/assets/149785862/63108580-254e-4fd6-92d8-e8f2ef8d468d)
+
 
 {
     "user": {
@@ -77,7 +78,8 @@ OUTPUT
     "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE4OTYzOTIwLCJpYXQiOjE3MTg5NjM2MjAsImp0aSI6IjZlZmRiYjU1Y2MyZTQ2MWE4ZWY2MTA5N2RjNmU2NzlkIiwidXNlcl9pZCI6N30.Fb-OAw5nZnh7cLdipJAXOb3_PpPVaikRv6SaGDnORT0"
 }
 
-![alt text](<Screenshot (96).png>)
+![Screenshot (96)](https://github.com/vaishnavikapile22/social-networking-application-using-django/assets/149785862/0101ada9-912a-476d-8849-9903e0332a78)
+
 
 Search Users
 
@@ -87,7 +89,8 @@ Method: GET
 
 OUTPUT
 
-![alt text](<Screenshot (97).png>)
+![Screenshot (97)](https://github.com/vaishnavikapile22/social-networking-application-using-django/assets/149785862/16ee200a-04b1-427d-9da7-a83233d6a4cd)
+
 
 
 Send Friend Request
@@ -101,7 +104,8 @@ Request:
 
 OUTPUT
 
-![alt text](<Screenshot (99).png>)
+![Screenshot (99)](https://github.com/vaishnavikapile22/social-networking-application-using-django/assets/149785862/fb91a1f1-dce2-42f4-84a5-45d62b17bfa8)
+
 
 Accept/Reject Friend Request
 
@@ -113,7 +117,8 @@ Request:
     "action":"accept"
 }
 
-![alt text](<Screenshot (100).png>)
+![Screenshot (100)](https://github.com/vaishnavikapile22/social-networking-application-using-django/assets/149785862/3c7e1341-271f-46a0-81f0-f90b2b6202d1)
+
 
 
 
@@ -122,6 +127,7 @@ Method: GET
 
 URL:http://127.0.0.1:8000/api/friends
 Method :GET
+![Screenshot (101)](https://github.com/vaishnavikapile22/social-networking-application-using-django/assets/149785862/fe702f77-296c-4739-a8f6-89582af1d618)
 
 ![alt text](<Screenshot (101).png>)
 
