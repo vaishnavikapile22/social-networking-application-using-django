@@ -1,0 +1,24 @@
+<!-- templates/user_search.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Search</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>User Search</h1>
+        <form method="get" action="{% url 'user_search' %}">
+            {% csrf_token %}
+            <label for="search_query">Search Query:</label>
+            <input type="text" id="search_query" name="q" required>
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</body>
+
+</html>
